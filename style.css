@@ -1,1 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit');
 
+body{
+    display:flex;
+    background-color: black;
+    color: antiquewhite;
+    width: 90vw;
+    height: 95vh;
+    flex-direction: row;
+}
+
+.picture{
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    display: flex;
+    width: 40vw;
+    background-size: auto;
+    background-position: center;
+}
+
+.title{
+    font-family: 'Kanit', serif;
+    font-size: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+}
+
+.right{
+    
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    background-color: black;
+}
+
+.form{
+    padding-left: 10px;
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text{
+    font-family: 'Kanit', serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.input{
+    font-family: 'Kanit', serif;
+    padding-left: 10px;
+}
+
+.label{
+    font-family: 'Kanit', serif;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Kanit', serif;
+}
+
+.login{
+    margin-left: 10px;
+}
+
+p{
+    font-family: 'Kanit', serif;
+}
+
+a{
+    font-family: 'Kanit', serif;
+}
