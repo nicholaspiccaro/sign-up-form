@@ -61,6 +61,11 @@ body{
     font-family: 'Kanit', serif;
 }
 
+.match-text{
+    font-family: 'Kanit', serif;
+    color: red;
+}
+
 .login{
     margin-left: 10px;
 }
